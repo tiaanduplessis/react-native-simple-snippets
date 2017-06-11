@@ -1,0 +1,31 @@
+{
+    "name": "react-native-simple-snippets",
+    "displayName": "React Native Simple Snippets",
+    "description": "A collection of React Native related snippets",
+    "version": "1.0.0",
+    "galleryBanner": {
+        "theme": "light",
+        "color": "#ffffff"
+    },
+    "icon": "logo.png",
+    "publisher": "tiaanduplessis",
+    "keywords": [
+        "snippets",
+        "react",
+        "react-native"
+    ],
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

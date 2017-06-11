@@ -1,0 +1,187 @@
+{
+  "setState": {
+    "prefix": "tss",
+    "body": [
+      "this.setState((state, props) => {",
+      "\t$1",
+      "})\n"
+    ],
+    "description": "Set the state of this component"
+  },
+  "console.log": {
+    "prefix": "cl",
+    "body": [
+      "console.log($1)"
+    ],
+    "description": "Log output to console"
+  },
+  "import React": {
+    "prefix": "imr",
+    "body": [
+      "import React$1 from 'react'"
+    ],
+    "description": "Import React module"
+  },
+  "export default": {
+    "prefix": "ed",
+    "body": [
+      "export default $1"
+    ],
+    "description": "Export default from module"
+  },
+  "ComponentDidMount": {
+    "prefix": "cdm",
+    "body": [
+      "componentDidMount() {",
+      "\t$1",
+      "}"
+    ],
+    "description": "componentDidMount lifecycle method"
+  },
+  "ComponentWillMount": {
+    "prefix": "cwm",
+    "body": [
+      "componentWillMount() {",
+      "\t$1",
+      "}"
+    ],
+    "description": "componentWillMount lifecycle method"
+  },
+  "ComponentWillReceiveProps": {
+    "prefix": "cwrp",
+    "body": [
+      "componentWillReceiveProps(nextProps) {",
+      "\t$1",
+      "}"
+    ],
+    "description": "ComponentWillReceiveProps lifecycle method"
+  },
+  "componentWillUnmount": {
+    "prefix": "cwum",
+    "body": [
+      "componentWillUnmount() {",
+      "\t$1",
+      "}\n"
+    ],
+    "description": "componentWillUnmount lifecycle method"
+  },
+  "shouldComponentUpdate": {
+    "prefix": "scu",
+    "body": [
+      "shouldComponentUpdate(nextProps, nextState) {",
+      "\t$1",
+      "}"
+    ],
+    "description": "shouldComponentUpdate lifecycle method"
+  },
+  "ComponentWillUpdate": {
+    "prefix": "cwu",
+    "body": [
+      "componentWillUpdate() {",
+      "\t$1",
+      "}"
+    ],
+    "description": "ComponentWillUpdate lifecycle method"
+  },
+  "ComponentDidUpdate": {
+    "prefix": "cdu",
+    "body": [
+      "componentDidUpdate(prevProps, prevState) {",
+      "\t$1",
+      "}"
+    ],
+    "description": "ComponentDidUpdate lifecycle method"
+  },
+  "Container Component": {
+    "prefix": "cc",
+    "body": [
+      "class $1 extends Component {",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$2",
+      "\t\t)",
+      "\t}",
+      "}\n",
+      "export default $1"
+    ],
+    "description": "Create React container(class) component"
+  },
+  "Stateless Functional Component": {
+    "prefix": "sfc",
+    "body": [
+      "const $1 = ($2) => (",
+      "\t$3",
+      ")\n",
+      "export default $1"
+    ],
+    "description": "Create React stateless functional component"
+  },
+  "Force update": {
+    "prefix": "tfu",
+    "body": "this.forceUpdate()",
+    "description": "Force render to be called on component"
+  },
+  "defaultProps": {
+    "prefix": "defaultProps",
+    "body": [
+      "static defaultProps = {",
+      "\t{2: $3",
+      "}\n"
+    ],
+    "description": "Set the default props for a component"
+  },
+  "propTypes": {
+    "prefix": "propTypes",
+    "body": "static propTypes = {\n  $2: React.PropTypes.$3\n}",
+    "description": "Set the propTypes for component"
+  },
+  "Stylesheet.create": {
+    "prefix": "ssc",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "\t$1: $2",
+      "})"
+    ],
+    "description": "Create a Stylesheet"
+  },
+  "flex": {
+    "prefix": "flex",
+    "body": "flex: ${1:1},",
+    "description": "Flex style property"
+  },
+  "justifyContent": {
+    "prefix": "jc",
+    "body": "justifyContent: '${1:center}',",
+    "description": "Justify content style property"
+  },
+  "alignItems": {
+    "prefix": "ai",
+    "body": "alignItems: '${1:center}',",
+    "description": "Align items style property"
+  },
+  "Image Component": {
+    "prefix": "rnImage",
+    "body": "<Image style={$1} source={{uri: '$2'}}/>\n",
+    "description": "Create React Native Image Component"
+  },
+  "ScrollView Component": {
+    "prefix": "rnScrollView",
+    "body": "<ScrollView contentContainerStyle={$1 style={$2}>$3</ScrollView>\n",
+    "description": "Create React Native ScrollView Component"
+  },
+  "Text Component": {
+    "prefix": "rnText",
+    "body": "<Text style={$1}>$2</Text>\n",
+    "description": "Create React Native Text Component"
+  },
+  "TouchableHighlight Component": {
+    "prefix": "rnTouchableH",
+    "body": "<TouchableHighlight onPress={$1} style={$2} underlayColor='$3'>$4</TouchableHighlight>\n",
+    "description": "Create React Native TouchableHighlight Component"
+  },
+  "View Component": {
+    "prefix": "rnView",
+    "body": "<View style={$1}>$2</View>\n",
+    "description": "Create React Native View Component"
+  }
+}
