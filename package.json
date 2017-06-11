@@ -3,6 +3,13 @@
     "displayName": "React Native Simple Snippets",
     "description": "A collection of React Native related snippets",
     "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/react-native-simple-snippets"
+    },
+    "homepage": "https://github.com/tiaanduplessis/react-native-simple-snippets",
+    "bugs": {
+        "url": "https://github.com/tiaanduplessis/react-native-simple-snippets/issues"
+    },
     "galleryBanner": {
         "theme": "light",
         "color": "#ffffff"
