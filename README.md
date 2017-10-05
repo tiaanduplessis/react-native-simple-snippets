@@ -1,5 +1,7 @@
 # react-native-simple-snippets
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/react-native-simple-snippets.svg)](https://greenkeeper.io/)
+
 > A collection of React Native related snippets
 
 ## Usage
